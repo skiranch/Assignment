@@ -11,7 +11,19 @@
     padding-right: 3%;
     padding-top: 2%;
     color: whitesmoke;
+
+    &__text{
+        padding-top:5px;
+        &--font{
+            font-size: 200%;
+            font-family: Georgia;
+            
+        }
+    }
+
 }
+
+
 .panel{
     &-heading{
         &--padding0{
