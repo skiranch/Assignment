@@ -1,18 +1,9 @@
 @mixin bgcolor{ background-color: #fafafa !important;}
 .glyphconPad{padding-left:2%}
 
-
-.menu{
-    &__topmargin{
-        margin-top:0px;
-        margin-right:0%;
-        margin-left: 0;
-        padding: 0;
-    }
-}
 .pic{
-        width:100px;
-        height:100px;
+        width:75px;
+        height:75px;
     }
 
 .start{
@@ -25,6 +16,12 @@
     }
 }
 .menu{
+    &__topmargin{
+        margin-top:0px;
+        margin-right:0%;
+        margin-left: 0;
+        padding: 0;
+    }
     &__profile{
     &--image{
     margin-top:10%;
@@ -89,6 +86,7 @@ hr{
     margin-left: 10%; 
     margin-top: 10%;
 }
+
 
 
 .panel{
