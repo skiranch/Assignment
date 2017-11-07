@@ -1,85 +1,86 @@
-
 @import '~assets/sass/mixins',
-        '~assets/sass/buttons';
-        
+'~assets/sass/buttons';
+
 $padding:5% 10%;
 $panel-border:#D1D0CE;
 
-.thumbnail{
+
+.button__primary{
+&--bgcolor{
+    padding:$padding;
+    background-color: snow;
+        color: black;
+        border: 1px solid gray;
+
+    }
+&--inversecolor{
+    padding:$padding;
+    background-color: #3B3131;
+    color:snow;
+    border: 1px solid gray;
+        }
+}
+
+
+.panel{
+&-heading{
+background-color: rgba(211,211,211,0.5);
+border:1px solid;
+border-color: $panel-border;
+border-left: none!important;
+border-bottom: none!important;
+}
+
+&-body{
+ &--marginMod{
+    padding: 5% 3% 5% 10%;
+    }
+}
+&-default{
+&--marginMod{
+    margin:4% 5% 2% 5%;
+    }
+}
+}
+.body{
+&__margin{
+&--rightbottom{
+border-right :1px solid $panel-border;
+border-bottom: 1px solid$panel-border;
+        }
+    }
+
+&__header{
+&--name{
+    font-size: 150%;
+    float: left; 
+}
+&--status{
+    font-size: 120%;
+    color: red
+}   
+}
+&__lineHeight{
+line-height:200%;
+}
+&__borderline{
+border-left:2px solid;
+border-left-color:#000000;
+}
+
+&__data-head{
+color: gray;
+}
+&__right{
+float: right;
+align-content: flex-end;
+padding-left: 22%;
+}
+&__thumbnail{
     max-height: 100px;
     min-height: 100px;
     max-width: 100px;
     min-width: 100px;
-}
-
-.button__primary{
-        &--bgcolor{
-            padding:$padding;
-            background-color: snow;
-                color: black;
-                border: 1px solid gray;
-    
-            }
-        &--inversecolor{
-            padding:$padding;
-            background-color: #3B3131;
-            color:snow;
-            border: 1px solid gray;
-                }
-        }
-.right{
-        float: right;
-        align-content: flex-end;
-        padding-left: 22%;
-        }
-
-.panel{
-    &-heading{
-        background-color: rgba(211,211,211,0.5);
-        border:1px solid;
-        border-color: $panel-border;
-        border-left: none!important;
-        border-bottom: none!important;
-        }
-
-    &-body{
-         &--marginMod{
-            padding: 5% 3% 7% 10%;
-            }
-        }
-    &-default{
-        &--marginMod{
-            margin:4% 5% 2% 5%;
-            }
-        }
-    }
-.body{
-    &__margin{
-        &--rightbottom{
-    border-right :1px solid $panel-border;
-    border-bottom: 1px solid$panel-border;
-                }
-            }
-
-    &__header{
-        &--name{
-            font-size: 150%;
-            float: left; 
-    }
-        &--status{
-            font-size: 120%;
-            color: red
-        }   
-    }
-    &__lineHeight{
-        line-height:200%;
-        }
-    &__borderline{
-        border-left:2px solid;
-        border-left-color:#000000;
-        }
-    
-    &__data-head{
-        color: gray;
     }
 }
+

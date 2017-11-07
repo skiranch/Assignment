@@ -1,15 +1,7 @@
 @mixin bgcolor{ background-color: #fafafa !important;}
 .glyphconPad{padding-left:2%}
 
-.pic{
-        width:75px;
-        height:75px;
-    }
 
-.start{
-    margin-right:-5%;
-    margin-top:0px;
-}
 .row{
     &--bgcolor{
         background-color: #fafafa;
@@ -60,20 +52,17 @@
         margin-left: 20%;
         font-size: 120%;
     }
+    &__pic{
+        width:75px;
+        height:75px;
+    }
+
+    &__margin{
+        margin-left:10%; font-size: 120%;
+    }
+
 }
  
-.marginMod{
-    margin-left:10%; font-size: 120%;
-}
-
-.panel-body{
-    &--paddingleft{
-        padding-left:2%
-    }
-}
-
-
-
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -92,8 +81,12 @@ hr{
 .panel{
     @include bgcolor;
     border: none;
-      &-body{
+    &-body{
         padding: 2px;
+        
+        &--paddingleft{
+                padding-left:2%
+          }
     }
     &-default{
         @include bgcolor;
