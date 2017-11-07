@@ -1,15 +1,20 @@
 @mixin bgcolor{ background-color: #fafafa !important;}
 .glyphconPad{padding-left:2%}
 
-//ROW STYLINGS//
+.pic{
+        width:75px;
+        height:75px;
+    }
+
+.start{
+    margin-right:-5%;
+    margin-top:0px;
+}
 .row{
     &--bgcolor{
         background-color: #fafafa;
     }
 }
-
-//LEFT COMPONENT STYLINS are given here//
-
 .menu{
     &__topmargin{
         margin-top:0px;
@@ -17,33 +22,21 @@
         margin-left: 0;
         padding: 0;
     }
-
-    // PROFILE IMAGE and NAME//
     &__profile{
     &--image{
     margin-top:10%;
-    margin-left: 10%;
-    padding :10% 0% 10% 10% 
-    }
-    
-    &__pic{
-        width:75px;
-        height:75px;
+    margin-left: 10%; 
     }
     &--Name{
-    margin:15% 0% 15% 10%; 
+    margin:15% 0% 15% 0%; 
     font-size:150%;   
     font-family: Century Gothic;
     }
-
-    //COMPANY LOGO//
 }   &__company--logo{
     margin-left:20%;
     padding-top:1%;
     align-content:center;
     }
-
-    //LEFT COLUMN TABS STYLINGS//
     &__home{
         &--marginMod{
             margin-top: 5%;
@@ -66,34 +59,40 @@
         margin-left: 20%;
         font-size: 120%;
     }
-
-    &__margin{
-        margin-left:10%; font-size: 120%;
-    }
-
 }
  
+.marginMod{
+    margin-left:10%; font-size: 120%;
+}
+
+.panel-body{
+    &--paddingleft{
+        padding-left:2%
+    }
+}
+
+
+
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-18 { font-size: 18px; }
 
 .h4{
     margin-left: 10%; 
     margin-top: 10%;
 }
 
-//LEFT PANEL STYLINGS FOR TOGGLE//
+
 
 .panel{
     @include bgcolor;
     border: none;
-    &-body{
+      &-body{
         padding: 2px;
-        
-        &--paddingleft{
-                padding-left:2%
-          }
     }
     &-default{
         @include bgcolor;
@@ -117,3 +116,12 @@ hr{
         }
     }
 }
+
+.col-xs-4{
+        padding-right: 0;
+    }
+
+.img-thumbnail{
+    border:0;
+}
+
