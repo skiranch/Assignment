@@ -1,12 +1,15 @@
 @mixin bgcolor{ background-color: #fafafa !important;}
 .glyphconPad{padding-left:2%}
 
-
+//ROW STYLINGS//
 .row{
     &--bgcolor{
         background-color: #fafafa;
     }
 }
+
+//LEFT COMPONENT STYLINS are given here//
+
 .menu{
     &__topmargin{
         margin-top:0px;
@@ -14,22 +17,33 @@
         margin-left: 0;
         padding: 0;
     }
+
+    // PROFILE IMAGE and NAME//
     &__profile{
     &--image{
     margin-top:10%;
     margin-left: 10%;
     padding :10% 0% 10% 10% 
     }
+    
+    &__pic{
+        width:75px;
+        height:75px;
+    }
     &--Name{
     margin:15% 0% 15% 10%; 
     font-size:150%;   
     font-family: Century Gothic;
     }
+
+    //COMPANY LOGO//
 }   &__company--logo{
     margin-left:20%;
     padding-top:1%;
     align-content:center;
     }
+
+    //LEFT COLUMN TABS STYLINGS//
     &__home{
         &--marginMod{
             margin-top: 5%;
@@ -52,10 +66,6 @@
         margin-left: 20%;
         font-size: 120%;
     }
-    &__pic{
-        width:75px;
-        height:75px;
-    }
 
     &__margin{
         margin-left:10%; font-size: 120%;
@@ -68,15 +78,12 @@ hr{
     margin-bottom: 10px;
 }
 
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-18 { font-size: 18px; }
-
 .h4{
     margin-left: 10%; 
     margin-top: 10%;
 }
 
-
+//LEFT PANEL STYLINGS FOR TOGGLE//
 
 .panel{
     @include bgcolor;

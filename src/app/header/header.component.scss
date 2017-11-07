@@ -1,7 +1,7 @@
 @import '~assets/sass/mixins',
         '~assets/sass/buttons';
 
-        
+//Header Component Stylings//      
 
 .header{
     background-color:#343B48; 
@@ -23,7 +23,7 @@
 
 }
 
-
+//PANEL STYLINGS//
 .panel{
     &-heading{
         &--padding0{
@@ -34,6 +34,8 @@
         display: inline-block;
     }
 }
+
+//DROPDOWN STYLINGS//
 .dropdownCustom{
     @include dropdownCustom;
     &--bgcolorchange{
@@ -43,6 +45,8 @@
     padding:10% 5% 10% 5%;
     }
 }
+
+//BUTTONS STYLINGS for DROPDOWN, CREATE GALLERY , REORDER// 
 .button__primary{
     &--dropDn{
         border:none !important;
@@ -64,12 +68,13 @@
         }
     }
 
-
+//COLUMN STYLINGS//
 .col-md-6{
     &--margin-left{
         margin-left:63%;
     }
 }
+//CONTAINER STYLINGS//
 .container{
     &--width{
         width: 950px;

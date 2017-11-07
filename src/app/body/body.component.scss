@@ -4,7 +4,7 @@
 $padding:5% 10%;
 $panel-border:#D1D0CE;
 
-
+// Buttons for COPY TO and EDIT//
 .button__primary{
 &--bgcolor{
     padding:$padding;
@@ -21,7 +21,7 @@ $panel-border:#D1D0CE;
         }
 }
 
-
+//PANEL for Gallery Display//
 .panel{
 &-heading{
 background-color: rgba(211,211,211,0.5);
@@ -42,6 +42,9 @@ border-bottom: none!important;
     }
 }
 }
+
+// All the Body Component Stylings// 
+
 .body{
 &__margin{
 &--rightbottom{
@@ -76,6 +79,8 @@ float: right;
 align-content: flex-end;
 padding-left: 22%;
 }
+//Image Stylings for Gallery Images//
+
 &__thumbnail{
     max-height: 100px;
     min-height: 100px;

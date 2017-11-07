@@ -1,18 +1,4 @@
-$three:3%;
-$tenpx:10px;
-$light-grey:rgba(136, 133, 133, 0.46);
-$darkColor:rgba(12, 11, 11, 0.884);
-$lightColor:#fafafa;
 
-
-@mixin buttonDec{
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 .padding0{
         padding-left: 5px;
         padding-right: 0;
@@ -37,34 +23,4 @@ $lightColor:#fafafa;
         width:930px;
     }
 }
-.button {
-    background-color:$light-grey ;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    @include buttonDec;
-  
-    &__inverse{
-        background-color: $darkColor;
-        border:2px solid #A3A1A1;
-        color: white;
-        padding: 15px 32px;
-        @include buttonDec;
-    }
-}
 
-.button2 {
-        background-color:#ffffff;
-       color: rgb(8, 8, 8);
-       padding: 13px 28px;
-       border: 1px solid $darkColor;
-       @include buttonDec;
-    }
-
-.button3 {
-        background-color: $darkColor;
-        color: white;
-        border: 1px solid white;
-        padding: 13px 28px;
-        @include buttonDec;
-    }
