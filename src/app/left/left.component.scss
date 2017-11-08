@@ -25,19 +25,20 @@
         padding: 0;
     }
     &__profile{
-    &--image{
-    margin-top:10%;
-    margin-left: 10%; 
-    }
-    &--Name{
-    margin:15% 0% 15% 0%; 
-    font-size:150%;   
-    font-family: Century Gothic;
-    }
-}   &__company--logo{
-    margin-left:20%;
-    padding-top:1%;
-    align-content:center;
+        &--image{
+            margin-top:10%;
+            margin-left: 10%; 
+            }
+        &--Name{
+            margin:15% 0% 15% 0%; 
+            font-size:150%;   
+            font-family: Century Gothic;
+            }
+        }   
+    &__company--logo{
+            margin-left:20%;
+            padding-top:1%;
+            align-content:center;
     }
     &__home{
         &--marginMod{
@@ -48,32 +49,31 @@
     }
     &__tab{
         &--menuicon{
-        margin-left: 20%; 
-        font-size: 120%;
+            margin-left: 20%; 
+            font-size: 120%;
         }
         &--menuscript{
-        margin-left:10%;
-        display: inline;
+            margin-left:10%;
+            display: inline;
         }
     }
     &__firstIcon{
-        margin-top: 10%;
-        margin-left: 20%;
-        font-size: 120%;
+            margin-top: 10%;
+            margin-left: 20%;
+            font-size: 120%;
     }
 }
  
 .marginMod{
-    margin-left:10%; font-size: 120%;
+            margin-left:10%;
+            font-size: 120%;
 }
 
 .panel-body{
-    &--paddingleft{
-        padding-left:2%
+        &--paddingleft{
+            padding-left:2%
     }
 }
-
-
 
 hr{
     margin-top: 10px;
@@ -87,8 +87,6 @@ hr{
     margin-left: 10%; 
     margin-top: 10%;
 }
-
-
 
 .panel{
     @include bgcolor;
@@ -126,4 +124,6 @@ hr{
 .img-thumbnail{
     border:0;
 }
-
+.article{
+    border-bottom: 1px 
+}

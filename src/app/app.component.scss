@@ -17,11 +17,19 @@
         margin: 0;
     }
 
+.col-md-9{
+    background-color: white  !important;
+}
+
 
 
 .container{
     &__header{
         width:930px;
     }
+}
+
+.row{
+    @include bgcolor;
 }
 
