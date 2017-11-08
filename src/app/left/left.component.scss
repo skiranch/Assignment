@@ -1,4 +1,6 @@
-@mixin bgcolor{ background-color: #fafafa !important;}
+@import '~assets/sass/mixins';
+
+
 .glyphconPad{padding-left:2%}
 
 .pic{
@@ -12,7 +14,7 @@
 }
 .row{
     &--bgcolor{
-        background-color: #fafafa;
+        @include bgcolor;
     }
 }
 .menu{

@@ -59,11 +59,13 @@
         background-color:inherit;
         color: snow;
         display: inline;
+        border:1px solid;
     }
     &--bgcolor{
         padding:$padding-head_body;
         background-color: snow;
             color: black;
+            border: 1px solid;
 
         }
     }

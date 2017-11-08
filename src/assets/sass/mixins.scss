@@ -3,13 +3,16 @@ $color__primary:#ffffff !default;
 $color__primary--black:#000000!default;
 $color__dark--light:#dddd;
 
+$color__bordercolor:#D1D0CE;
+@mixin bgcolor{ background-color: #fafafa !important;}
+
 @mixin button{
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border:1px solid;
+    border:1px ;
     border-color:$color__primary--black; 
 }
 @mixin dropdownCustom{

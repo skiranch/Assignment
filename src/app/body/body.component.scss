@@ -2,7 +2,7 @@
 '~assets/sass/buttons';
 
 $padding:5% 10%;
-$panel-border:#D1D0CE;
+
 
 // Buttons for COPY TO and EDIT//
 .button__primary{
@@ -26,7 +26,7 @@ $panel-border:#D1D0CE;
 &-heading{
 background-color: rgba(211,211,211,0.5);
 border:1px solid;
-border-color: $panel-border;
+border-color: $color__bordercolor;
 border-left: none!important;
 border-bottom: none!important;
 }
@@ -48,8 +48,8 @@ border-bottom: none!important;
 .body{
 &__margin{
 &--rightbottom{
-border-right :1px solid $panel-border;
-border-bottom: 1px solid$panel-border;
+border-right :1px solid $color__bordercolor;
+border-bottom: 1px solid $color__bordercolor;
         }
     }
 
