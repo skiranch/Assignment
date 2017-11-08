@@ -4,16 +4,16 @@
 //Header Component Stylings//      
 
 .header{
-    background-color:#343B48; 
-    margin:0 0 0 0; 
-    padding-bottom:2%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 2%;
-    color: whitesmoke;
+            background-color:#343B48; 
+            margin:0 0 0 0; 
+            padding-bottom:2%;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-top: 2%;
+            color: whitesmoke;
 
     &__text{
-        padding-top:5px;
+            padding-top:5px;
         &--font{
             font-size: 200%;
             font-family: Georgia;
@@ -27,61 +27,60 @@
 .panel{
     &-heading{
         &--padding0{
-        padding: 0 0 0 0;
+            padding: 0 0 0 0;
+            }
         }
+        &--display{
+            display: inline-block;
+            }
     }
-    &--display{
-        display: inline-block;
-    }
-}
 
 //DROPDOWN STYLINGS//
 .dropdownCustom{
-    @include dropdownCustom;
+            @include dropdownCustom;
     &--bgcolorchange{
-    background-color: rgba(97, 109, 126,0.45);
-    border: none !important;
-    opacity: 1;
-    padding:10% 5% 10% 5%;
+            background-color: rgba(97, 109, 126,0.45);
+            border: none !important;
+            opacity: 1;
+            padding:10% 5% 10% 5%;
+            }
     }
-}
 
 //BUTTONS STYLINGS for DROPDOWN, CREATE GALLERY , REORDER// 
 .button__primary{
     &--dropDn{
-        border:none !important;
-        padding:0;
-        margin:0;
-        background-color: rgba(97, 109, 126,0.45);
-    }    
+            border:none !important;
+            padding:0;
+            margin:0;
+            background-color: rgba(97, 109, 126,0.45);
+        }    
     &--margin{
-        padding:$padding-head_body;
-        background-color:inherit;
-        color: snow;
-        display: inline;
-        border:1px solid;
-    }
+            padding:$padding-head_body;
+            background-color:inherit;
+            color: snow;
+            display: inline;
+            border:1px solid;
+        }
     &--bgcolor{
-        padding:$padding-head_body;
-        background-color: snow;
+            padding:$padding-head_body;
+            background-color: snow;
             color: black;
             border: 1px solid;
-
+            }
         }
-    }
 
 //COLUMN STYLINGS//
 .col-md-6{
     &--margin-left{
-        margin-left:63%;
+            margin-left:63%;
+            }
     }
-}
 //CONTAINER STYLINGS//
 .container{
     &--width{
-        width: 950px;
-        margin: 0;
-        padding: 0;
-        display: inline-block;
+            width: 950px;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
     }
-}

@@ -9,14 +9,14 @@
     }
 
 .start{
-    margin-right:-5%;
-    margin-top:0px;
-}
+        margin-right:-5%;
+        margin-top:0px;
+    }
 .row{
     &--bgcolor{
         @include bgcolor;
+        }
     }
-}
 .menu{
     &__topmargin{
         margin-top:0px;
@@ -67,38 +67,35 @@
 .marginMod{
             margin-left:10%;
             font-size: 120%;
-}
+    }
 
 .panel-body{
         &--paddingleft{
             padding-left:2%
+        }
     }
-}
 
 hr{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-18 { font-size: 18px; }
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
 
 .h4{
-    margin-left: 10%; 
-    margin-top: 10%;
-}
+            margin-left: 10%; 
+            margin-top: 10%;
+   }
 
 .panel{
-    @include bgcolor;
-    border: none;
-      &-body{
-        padding: 2px;
-    }
+            @include bgcolor;
+            border: none;
+    &-body{
+            padding: 2px;
+        }
     &-default{
-        @include bgcolor;
-    }
+            @include bgcolor;
+        }
     &-heading{
-        @include bgcolor;
+            @include bgcolor;
         .accordion-toggle:after{
             font-family: 'Glyphicons Halflings'; 
             content: "\e114";   
@@ -113,17 +110,17 @@ hr{
         .panel-heading+.panel-collapse>.panel-body{
             @include bgcolor;
             border: none;
+            }
         }
     }
-}
 
 .col-xs-4{
-        padding-right: 0;
+            padding-right: 0;
     }
 
 .img-thumbnail{
-    border:0;
-}
+            border:0;
+    }
 .article{
-    border-bottom: 1px 
+        border-bottom: 1px 
 }
