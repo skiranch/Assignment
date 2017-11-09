@@ -1,24 +1,34 @@
 <div class="panel panel-default">
 <div class="panel-heading--padding0">
+
+  <!-- HEADER PART Display Company Name --> 
         <div class="header" >
             <div class="header__text">GALLERY FOR </div>
             <div class="header__text--font">General Pants Co.</div>
             <hr>
-           
+  <!--DropDown Buttons for Search by Status -->
             <div class="container__header">
             <div class="col-md-6"> 
                 <button class="button__primary--dropDn">
-                   <select (change)='myfilter(myselect.value,myselect2.value)' #myselect type="text"[(ngModel)]="name" name="FILTER BY STATUS" class="dropdownCustom--bgcolorchange" > 
-                                    <option *ngFor="let n of names" [attr.value]="n">{{n}}</option>
-                                  </select></button> &nbsp; &nbsp;&nbsp; &nbsp; 
-                                  <button class="button__primary--dropDn"> 
-                                  <select (change)='myfilter(myselect.value,myselect2.value)' #myselect2 type="text"[(ngModel)]="storeName" name="FILTER BY STORE" class="dropdownCustom--bgcolorchange" > 
-                                        <option *ngFor="let n of stores" [attr.value]="n">{{n}}</option>
-                                      </select></button></div>
-                                      <div class="col-md-6--margin-left">
-            <button class="button__primary--margin">REORDER</button>&nbsp; &nbsp;&nbsp; &nbsp; <button class="button__primary--bgcolor">CREATE GALLERY</button></div>
-           
-          </div>
+                    <select (change)='myfilter(myselect.value,myselect2.value)' #myselect type="text"[(ngModel)]="name" name="FILTER BY STATUS" class="dropdownCustom--bgcolorchange" > 
+                      <option *ngFor="let n of names" [attr.value]="n">{{n}}</option>
+                    </select>
+                </button> &nbsp; &nbsp;&nbsp; &nbsp;
+  <!--Dropdown Button for Search by Stores-->              
+                
+                <button class="button__primary--dropDn"> 
+                    <select (change)='myfilter(myselect.value,myselect2.value)' #myselect2 type="text"[(ngModel)]="storeName" name="FILTER BY STORE" class="dropdownCustom--bgcolorchange" > 
+                      <option *ngFor="let n of stores" [attr.value]="n">{{n}}</option>
+                    </select>
+                </button>
+              </div>
+
+  <!-- Reorder and Create Buttons-->
+              <div class="col-md-6--margin-left">
+                <button class="button__primary--margin">REORDER</button>&nbsp; &nbsp;&nbsp; &nbsp; 
+                <button class="button__primary--bgcolor">CREATE GALLERY</button>
+              </div>
+           </div>
         </div>
     </div>
 </div>

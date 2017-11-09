@@ -122,5 +122,10 @@ hr{
             border:0;
     }
 .article{
-        border-bottom: 1px 
+        border-bottom: 1px $color__bordercolor;
+}
+.font{
+    &--sizeModify{
+        font-size: 16px;
+    }
 }

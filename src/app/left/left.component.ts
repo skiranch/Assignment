@@ -12,6 +12,5 @@ export class LeftComponent {
  displayBody()
  {
    this.showbody.emit(true);
-   
  }
 }
