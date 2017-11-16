@@ -1,11 +1,12 @@
 import { Component, OnInit,EventEmitter,Output } from '@angular/core';
+import {RouterLink, RouterLinkActive} from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  displaystatus:boolean=false;
+  /*displaystatus:boolean=false;
   filterOption:string="all";
   filterOptionStore:string="all";
   @Output()
@@ -28,5 +29,5 @@ export class AppComponent {
     {
       this.filterOptionStore='all';
     }
-  }
+  }*/
  }

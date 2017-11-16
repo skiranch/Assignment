@@ -1,8 +1,7 @@
 
  <ng-container *ngFor="let details of myarray; let myIndex=index">
-
-    <div *ngIf="filterOptionStore=='all' || checkStore(filterOptionStore,details.stories)">
-        <div *ngIf="filterOption=='all'|| filterOption==details.headlabel2">
+   <!-- <div *ngIf="filterOptionStore=='all' || checkStore(filterOptionStore,details.stories)">
+        <div *ngIf="filterOption=='all'|| filterOption==details.headlabel2">-->
             <div class="panel panel-default--marginMod body__margin--rightbottom" [style.border-left]='details.color'>
                 <div class="panel-heading">
                     <div class="col-xs-6">
@@ -57,6 +56,6 @@
                         </div>
                             </div>
                     </div>
-        </div>
-    </div>
+       <!--</div>
+    </div>-->
 </ng-container>
